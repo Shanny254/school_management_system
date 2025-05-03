@@ -106,7 +106,7 @@ mysql -u <your_user> -p < school_system.sql>
 
 Paste your ERD image or upload it to your GitHub repo and reference it here:
 
-![ERD Screenshot]([docs/school_erd.png](https://github.com/Shanny254/school_mangement_system/raw/main/Screenshot.png))
+![ERD Screenshot]([[docs/school_erd.png](https://github.com/Shanny254/school_mangement_system/raw/main/Screenshot.png)](https://github.com/Shanny254/school_management_system/raw/main/Screenshot.png))
 
 > _You can also embed a link to [draw.io](https://draw.io) or your hosted diagram if preferred._
 
