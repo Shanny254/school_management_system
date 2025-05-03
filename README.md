@@ -132,15 +132,17 @@ Build a simple RESTful API that connects to the MySQL database and implements fu
 ### 📁 Folder Structure
 
 ```
-/api
-  ├── main.py               # FastAPI application
-  ├── models.py             # SQLAlchemy models
-  ├── schemas.py            # Pydantic schemas
-  ├── crud.py               # CRUD logic
-  └── database.py           # DB connection
-```
+SCHOOL_MANAGEMENT_SYSTEM/
+│
+├── school_management_system.sql        # Question 1 - SQL schema + sample data
+├── contact_book.sql                    # Question 2 - Contact Book DB schema
+├── main.py                             # Full FastAPI app (models + CRUD + routes)
+├── requirements.txt                    # Python dependencies (e.g. fastapi, sqlalchemy, mysql-connector)
+├── Screenshot.png                      # ERD or API screenshot
+├── README.md                           # Project description and setup guide
+└── .env / variables.env                # Optional - for DB credentials
 
----
+```
 
 ### 🚀 How to Run the API
 
@@ -189,7 +191,7 @@ You’ll find the SQL script used to create the database inside:
 This project is for academic purposes and is freely available for learning and extension.
 
 
-![ERD Screenshot](C:\Users\sharl\OneDrive\Desktop\DATABASE\school_management_system\Screenshot.png)
+![ERD Screenshot]([C:\Users\sharl\OneDrive\Desktop\DATABASE\school_management_system\Screenshot.png](https://1drv.ms/i/c/6cc55e1298e30ea8/EVaYFP19aVJEv4_i_BHuuKMBA-_mawvLVDoZ2VfgFA_ihw?e=aq6AkT))
 
 > _You can also embed a link to [draw.io](https://app.diagrams.net/) or your hosted diagram if preferred._
 
